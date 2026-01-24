@@ -24,7 +24,10 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
 
-print("\n" + "=" * 50)
+# ASCII art banner
+ascii_art = """
+⣏⡉ ⡇    ⡏⢱ ⠄ ⣰⡁ ⣰⡁ ⡇⢸ ⢎⡑ ⣏⡱
+⠇  ⠧⠤   ⠧⠜ ⠇ ⢸  ⢸  ⠸⠃ ⠢⠜ ⠇⠱
+"""
+print(f"\033[35m{ascii_art}\033[0m")
 print("FL DiffVSR - Video Super-Resolution Node Pack")
-print("4x Upscaling with Temporal Coherence")
-print("=" * 50 + "\n")
