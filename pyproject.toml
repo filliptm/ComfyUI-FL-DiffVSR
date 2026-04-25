@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-fl-diffvsr"
 description = "FL DiffVSR - Diffusion-based video super-resolution nodes for ComfyUI. Features 4x upscaling with temporal coherence using Stream-DiffVSR for smooth, artifact-free video enhancement. Supports text-guided upscaling, chunked processing for memory efficiency, and automatic model downloading from HuggingFace."
-version = "1.0.0"
+version = "1 0 1"
 license = {text = "Apache-2.0"}
 dependencies = [
     "torch>=2.0.0",
@@ -23,4 +23,4 @@ Repository = "https://github.com/filliptm/ComfyUI-FL-DiffVSR"
 [tool.comfy]
 PublisherId = "machinedelusions"
 DisplayName = "FL DiffVSR"
-Icon = ""
+Icon = "https://avatars.githubusercontent.com/u/55672949"
